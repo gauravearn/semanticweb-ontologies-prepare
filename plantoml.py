@@ -9,11 +9,12 @@ def plantomlfetcher(plantomlfile = None):
     A plant ontology extracter from the plant oml files for the plant ontology number 
     to make the links to the graphs. A part of the ontology analyzer package. 
     :param plantomlfile: 
-    :return: 
+    :return: finalplantontology
     """
+    global finalplantontology
     if plantomlfile is not None:
         plantomlread = [i.strip().split("\n") for i in open(plantomlfile).readlines()]
-        plantomlfetch = [plantomlread[i] for i in range(len(planomlread)) if "PO" in ''.join(plantomlread[i])]
+        plantomlfetch = [plantomlread[i] for i in range(len(plantomlread)) if "PO" in ''.join(plantomlread[i])]
         extractplantontology = []
         finalplantontology = []
         for i in range(len(plantomlfetch)):
