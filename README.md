@@ -1,7 +1,10 @@
 # graph-ontologies-bioentities
 
-- a graphql and graphql method for linkML [LinkML](https://github.com/linkml/linkml) for open data modelling approaches. [LinkML](https://linkml.io/).
-- generating the ontology graphs and the system relationship. implementing the direct association for the rdf format for the modelling.
+- faster regular expression based to extract the plant ontology number for the graph construction and for the linkML [LinkML](https://github.com/linkml/linkml) for open data modelling approaches. [LinkML](https://linkml.io/).
+- 
+```
+plantomlfetcher("/home/gaurav/Desktop/po.owl")
+```
 
 Gaurav Sablok \
 Academic Staff Member \
