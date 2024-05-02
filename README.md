@@ -7,7 +7,7 @@
 plantomlfetcher("/home/gaurav/Desktop/po.owl")
 ```
 
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
